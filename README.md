@@ -1,9 +1,13 @@
 # Gridation
 
-It's ZURB Foundation but *only* the Grid stuff.  Because you might
-think ZURB Foundation's custom download tool would allow you to only
-select Grid, but you get a bunch of style resets, custom form styles,
-and animation related things along with it.
+It's ZURB Foundation but *only* the Grid stuff.  As in, I literally
+took ZURB Foundation's CSS and removed everything that wasn't related
+to the Grid.
+
+Because you might think ZURB Foundation's custom download tool (or
+Foundation Essentials) would allow you to only select Grid, but
+you get a bunch of style resets, custom form styles, and animation
+related things along with it.
 
 ## Why did I make this?
 
