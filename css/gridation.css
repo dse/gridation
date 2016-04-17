@@ -5,14 +5,8 @@
  * Licensed under MIT Open Source
  */
 
-html {
+.column, .columns {
     box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
 }
 
 .text-left {
