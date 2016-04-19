@@ -1,22 +1,32 @@
 # Gridation
 
-It's ZURB Foundation but *only* the Responsive Grid stuff.  As in, I
+It's [ZURB Foundation](http://foundation.zurb.com/)
+but *only* the Responsive Grid stuff.  As in, I
 literally took ZURB Foundation's CSS and removed everything that wasn't
 related to the Responsive Grid.
 
 Because you might think ZURB Foundation's custom download tool (or
 Foundation Essentials) would allow you to only select Grid, but
 you get a bunch of style resets, custom form styles, and animation
-related things along with it.
+related things along with it, which you don't want in certain
+circumstances.
 
 ## Why did I make this?
 
 Gridation is intended to be incorporated into existing projects
-without changing any of your styles.  Of course, your existing
-project will need other modifications to become responsive:
+where you want to change your styles as little as possible.
+
+Gridation requires *some* knowledge of the nuts-and-bolts of
+responsive HTML on your part.  As you should probably be aware,
+your existing project will need the following modifications at a
+minimum to become responsive:
 
 - remove any fixed widths on the page (a `max-width` is okay).
 - add a [viewport meta tag](https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag) to the <head>.
+
+If you're starting a new project from scratch, it is probably
+best to go ahead and use ZURB Foundation or another grid layout
+tool of your choice.
 
 ## Documentation
 
