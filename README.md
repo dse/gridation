@@ -1,8 +1,8 @@
 # Gridation
 
-It's ZURB Foundation but *only* the Grid stuff.  As in, I literally
-took ZURB Foundation's CSS and removed everything that wasn't related
-to the Grid.
+It's ZURB Foundation but *only* the Responsive Grid stuff.  As in, I
+literally took ZURB Foundation's CSS and removed everything that wasn't
+related to the Responsive Grid.
 
 Because you might think ZURB Foundation's custom download tool (or
 Foundation Essentials) would allow you to only select Grid, but
@@ -12,7 +12,11 @@ related things along with it.
 ## Why did I make this?
 
 Gridation is intended to be incorporated into existing projects
-without changing any of your styles.
+without changing any of your styles.  Of course, your existing
+project will need other modifications to become responsive:
+
+- remove any fixed widths on the page (a `max-width` is okay).
+- add a [viewport meta tag](https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag) to the <head>.
 
 ## Documentation
 
@@ -31,6 +35,9 @@ want to implement that restriction, it's easy:
     .row {
         max-width: 75rem;
     }
+
+but you *probably* don't need to do it if you have a `max-width`
+specified on the page already and want to use that instead.
 
 ## Bugs
 
